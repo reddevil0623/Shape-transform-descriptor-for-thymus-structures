@@ -8,7 +8,7 @@ Whole_tissue_masks.zip contains a total mask classifying the thymus into cortex 
 
 all_cortex_quadrants.zip contains all separate cortex quadrant images generated from tiling and filtering through each binary TEC mask.
 
-patch_df_cortex_cell.csv contains the cell counts for each cell type within each cortex quadrant.
+patch_TEC1hop.csv contains the cell counts for each selected cell type within 5μm to TECs of each cortex quadrant.
 
 shap_example.py contains code as an example showing how we performed SHAP analysis using the vectorized SampEuler as features.
 
