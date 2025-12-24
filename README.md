@@ -12,6 +12,6 @@ patch_TEC1hop.csv contains the cell counts for each selected cell type within 5Î
 
 shap_example.py contains code as an example showing how we performed SHAP analysis using the vectorized SampEuler as features.
 
-synthetic_network_and_MPEG.ipynb contains the code for how we generated the synthetic network examples, and codes for computing ECT, DETECT, SampEuler, Vectorized SampEuler for these examples, as well as visualizing results using MDScale.
+synthetic_network_and_MPEG7.ipynb contains the code for how we generated the synthetic network examples, and codes for computing ECT, DETECT, SampEuler, Vectorized SampEuler for these examples, as well as visualizing results using MDScale. It also contains preprocessing codes used for MPEG7 dataset.
 
 ECT_video.mp4 is a video showing how ECT and SECT works for 2D data.
