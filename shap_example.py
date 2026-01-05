@@ -52,7 +52,7 @@ def extract_group(name):
     return name[0]+name.split('_')[1]
 all_files = os.listdir(datafolder)
 names = [file for file in all_files if file.lower().endswith(('.tif', '.tiff'))]
-ect_k8,max_value_k8, min_value_k8 = compute_ect(names_k8, datafolder, interval = (-0.6, 0.6))
+ect_k8,max_value_k8, min_value_k8 = compute_ect(names_k8, datafolder, interval = (-1.5, 1.5))
 flattened_k8 = [ect.flatten() for ect in ect_k8]
 print(f"Max value: {max_value_k8}, Min value: {min_value_k8}")
 
