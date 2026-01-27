@@ -1,3 +1,5 @@
+This repo contains code strictly for reperforming results of the manuscript "Shape transform descriptor for thymus structures". A more user-friendly version for general use of ECT is under preparation
+
 This repo contains the code for computing ECT, SECT, DETECT, and SampEuler for simplicial complexes and example uses of them.
 
 My_ECT.py contains ECT-based algorithms for simplicial complexes.
