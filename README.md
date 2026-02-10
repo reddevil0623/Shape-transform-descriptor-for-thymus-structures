@@ -17,6 +17,8 @@ This repo provides implementations of ECT, SECT, DETECT, and SampEuler for simpl
 | `My_ECT.py` | ECT-based algorithms for simplicial complexes |
 | `shap_example.py` | Example of SHAP analysis using vectorized SampEuler as features |
 | `synthetic_network_and_MPEG7.ipynb` | Synthetic network generation, ECT/DETECT/SampEuler computation, MDS visualization, and MPEG7 dataset preprocessing |
+| `k_medoid_shape_vs_selected_cell_type_1hop_manual.py` | K-medoids clustering of cortex quadrants by shape (SampEuler distance) and by cell composition (enrichment of thymocytes within 1-hop of TECs), with overlay visualizations on tissue masks |
+| `energy_depth_continuous.py` | Kernel-smoothed energy distance analysis comparing Young vs Old thymus shape and cell composition as a function of cortex depth (distance to cortico-medullary junction) |
 
 ### Data
 
