@@ -3,6 +3,7 @@
 This repository contains code for reproducing the results in the manuscript *"Shape transform descriptor for thymus structures"*.
 
 > **More User-Friendly (pip installable) Package** A more user-friendly implementation for broader applications is available at [SampEuler](https://github.com/reddevil0623/SampEuler).
+[![DOI](https://zenodo.org/badge/1093351621.svg)](https://doi.org/10.5281/zenodo.18614534)
 
 ## Overview
 
